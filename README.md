@@ -22,7 +22,6 @@ Bajo instancias generales, se debe precisar de dos configuraciones generales:
 
 <pre>
     <code>
-    ```json
     {
         "version": "0.1pre",
         "name": "TeaDoc Day Style",
@@ -124,7 +123,6 @@ Bajo instancias generales, se debe precisar de dos configuraciones generales:
         },
         license: "GPL-3.0"
     }
-    ```
     </code>
 </pre>
     
