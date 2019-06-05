@@ -1,4 +1,4 @@
-# TeaDoc Document Style (v0.1pre)
+# TeaDoc Style (v0.2pre)
 <small>*A TeaTeam document format*</small>
 
 **[ES]**
@@ -8,11 +8,11 @@ Fecha:   Junio 5, 2019
 
 ¿Qué es?
 --------
-El formato TeaDoc propone una nueva forma de hacer documentos académicos, científicos y de ensayo. Su propuesta es facilitar la organización, composición y lectura de documentos tales como: sumarios, actas, ensayos literarios y archivos de hipertexto.
+El estilo de documento TeaDoc propone una nueva forma de hacer documentos académicos, científicos y de ensayo. Su propuesta es facilitar la organización, composición y lectura de documentos tales como: sumarios, actas, ensayos literarios y archivos de hipertexto, además de otros posibles documentos exportables.
 
 ¿En qué consiste?
 -----------------
-Se establecen una serie de reglas y recursos a utilizar para construir un documento versátil, adaptándose a los nuevos canales de lectura y comunicación, tales como: archivos <a href="https://acrobat.adobe.com/la/es/acrobat/about-adobe-pdf.html" target="_blank">*Portable Document File* (PDF)</a> de <a href="https://adobe.com/" target="_blank">Adobe&reg;</a>, libros o documentos literarios tipo <a href="https://www.w3.org/publishing/groups/epub3-cg/" target="_blank">EPUB</a>, además de ser completamente compatibles con archivos <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office" target="_blank">ODF</a>, <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm" target="_blank">DOCX</a>, <a href="https://docs.microsoft.com/en-us/windows/desktop/msi/rtf-type" target="_blank">RTF</a>, <a href="https://www.google.com/docs/about/" target="_blank">GDOC</a>, <a href="https://daringfireball.net/projects/markdown/" target="_blank">MD</a> y otros similares o derivados.
+Se establecen una serie de reglas y recursos a utilizar para construir un documento versátil, adaptándose a los nuevos canales de comunicación, ya sean archivos <a href="https://acrobat.adobe.com/la/es/acrobat/about-adobe-pdf.html" target="_blank">PDF</a> (<a href="https://adobe.com/" target="_blank">Adobe&reg;</a>), libros o documentos literarios tipo <a href="https://www.w3.org/publishing/groups/epub3-cg/" target="_blank">EPUB</a>, archivos <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office" target="_blank">ODF</a>, <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm" target="_blank">DOCX</a>, <a href="https://docs.microsoft.com/en-us/windows/desktop/msi/rtf-type" target="_blank">RTF</a>, <a href="https://www.google.com/docs/about/" target="_blank">GDOC</a>, <a href="https://daringfireball.net/projects/markdown/" target="_blank">MD</a> y otros formatos similares o derivados.
 
 Reglas y consideraciones
 ------------------------
