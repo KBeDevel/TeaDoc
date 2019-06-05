@@ -1,4 +1,4 @@
-# TeaDoc Style (v0.2pre)
+# TeaDoc Style (v0.3pre)
 <small>*A TeaTeam document format*</small>
 
 **[ES]**
