@@ -28,7 +28,7 @@ Bajo instancias generales, se debe precisar de dos configuraciones:
 
 ```javascript
     {
-        version: "0.1pre",
+        version: "0.3pre",
         name: "TeaDoc Day Style",
         fonts: {
             Calibri_url: "./Fonts/Calibri",
