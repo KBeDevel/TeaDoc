@@ -1,4 +1,4 @@
-# TeaDoc Style (v0.3pre)
+# TeaDoc&copy; Style (v0.3pre)
 <small>*A TeaTeam document format*</small>
 
 **[ES]**
@@ -110,7 +110,7 @@ Bajo instancias generales, se debe precisar de dos configuraciones:
             table_border: "#000000"
         },
         page: {
-            size: "A4",
+            size: ["A4","Letter"],
             orientation: "portrait",
             margin: {
                 top: "3.25cm",
