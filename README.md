@@ -1,10 +1,11 @@
-# TeaDoc&copy; Style (v0.3pre)
-<small>*A TeaTeam document format*</small>
+# TeaDoc&copy; Style (v0.4pre)
+A **TeaTeam** contribution
+
+*Creator: KBeDeveloper*
+
+<hr>
 
 **[ES]**
-
-*Creador: KBeDeveloper*<br/>
-*Fecha:   Junio 5, 2019*
 
 ## ¿Qué es?
 
@@ -12,81 +13,179 @@ El estilo de documento TeaDoc propone una nueva forma de hacer documentos acadé
 
 ## ¿En qué consiste?
 
-Se establecen una serie de reglas y recursos a utilizar para construir un documento versátil, adaptándose a los nuevos canales de comunicación, ya sean archivos [PDF](https://acrobat.adobe.com/la/es/acrobat/about-adobe-pdf.html) ([Adobe&reg;](https://adobe.com/)), libros o documentos literarios tipo [EPUB](https://www.w3.org/publishing/groups/epub3-cg/), archivos [ODF](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office), [DOCX](https://www.ecma-international.org/publications/standards/Ecma-376.htm), [RTF](https://docs.microsoft.com/en-us/windows/desktop/msi/rtf-type), [GDOC](https://www.google.com/docs/about/), [MD](https://daringfireball.net/projects/markdown/) y otros formatos similares o derivados.
+Se establecen una serie de reglas y recursos a utilizar para construir un documento versátil, adaptándose a los nuevos canales de comunicación, ya sean archivos [PDF](https://acrobat.adobe.com/la/es/acrobat/about-adobe-pdf.html) ([Adobe&reg;](https://adobe.com/)), libros o documentos literarios tipo [EPUB](https://www.w3.org/publishing/groups/epub3-cg/), archivos [ODF](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office), [DOCX](https://www.ecma-international.org/publications/standards/Ecma-376.htm), [RTF](https://docs.microsoft.com/en-us/windows/desktop/msi/rtf-type), [GDOC](https://www.google.com/docs/about/), [MD](https://daringfireball.net/projects/markdown/), próximamente [LaTeX](https://www.latex-project.org/) y otros formatos similares o derivados.
 
 ## Reglas y consideraciones
 
-#### Ámbito
+#### Acuerdos y licencias
 
-
+En el caso de la fuente **Calibri&copy;** de [**Microsoft**&copy;](https://www.microsoft.com/), es necesario mencionar que su uso está sujeto a términos y condiciones presentadas por [Monotype&copy;](https://www.monotype.com), las cuales puedes consultar [aquí](./Fonts/Calibri/).
 
 #### Formato
 
-Bajo instancias generales, se debe precisar de dos configuraciones:
+Bajo instancias generales, se debe precisar las configuraciones de **día** y de **noche [NO LANZADA]**
 
-##### Estilo diurno
+<hr>
+
+**[EN]**
+
+## What is this?
+
+PENDING TRANSLATION
+
+## What is it all about?
+
+PENDING TRANSLATION
+
+## Rules & considerations
+
+#### Licenses & agreetments
+
+PENDING TRANSLATION
+
+#### Format
+
+PENDING TRANSLATION
+
+<hr>
+
+## [ES] Reglas
+## [EN] Reglas
+
+##### [ES] Estilo diurno
+##### [EN] Day Style
 
 ```javascript
     {
-        version: "0.3pre",
+        version: "0.4pre",
         name: "TeaDoc Day Style",
         fonts: {
-            Calibri_url: "./Fonts/Calibri",
-            OpenSans_url: "./Fonts/Open\ Sans"
+            main_font_url: "Fonts/Open\ Sans",
+            alt_font_url: "Fonts/Calibri"
         },            
-        font_config:{
+        font_setup:{
             header_text1: {
-                ""
+                font_size: "8px",
+                weight: "bold",
+                type: "normal"
             },
             header_text2: {
-                ""
+                font_size: "8px",
+                weight: "normal",
+                type: "normal"
             },
             meta_header: {
-                ""
+                font_size: "17px",
+                weight: "bold",
+                type: "normal"
             },
             text_default: {
-                ""
+                font_size: "12px",
+                weight: "normal",
+                type: "normal"
             },
             title: {
-                ""
+                font_size: "26px",
+                weight: "bold",
+                type: "normal"
             },
             subtitle: {
-                ""
+                font_size: "20px",
+                weight: "normal",
+                type: "normal"
             },
             heading1: {
-                ""
+                font_size: "20px",
+                weight: "bold",
+                type: "normal"
             },
             heading1_text: {
-                ""
+                font_size: "12px",
+                weight: "normal",
+                type: "normal"
             },
             heading2: {
-                ""
+                font_size: "17px",
+                weight: "bold",
+                type: "normal"
             },
             heading2_text: {
-                ""
+                font_size: "12px",
+                weight: "normal",
+                type: "normal"
             },
             heading3: {
-                ""
+                font_size: "14px",
+                weight: "bold",
+                type: "normal"
             },
-            heading3_text: "",
-            heading4: "",
-            heading4_text: "",
-            heading5: "",
-            heading5_text: "",
-            heading6: "",
-            heading6_text: "",
-            note1: "",
-            note2: "",
-            note3: "",
-            link: "",
-            page_number: "",
+            heading3_text: {
+                font_size: "12px",
+                weight: "normal",
+                type: "normal"
+            },
+            heading4: {
+                font_size: "12px",
+                weight: "bold",
+                type: "normal"
+            },
+            heading4_text: {
+                font_size: "12px",
+                weight: "normal",
+                type: "normal"
+            },
+            heading5: {
+                font_size: "11px",
+                weight: "bold",
+                type: "normal"
+            },
+            heading5_text: {
+                font_size: "11px",
+                weight: "normal",
+                type: "normal"
+            },
+            heading6: {
+                font_size: "11px",
+                weight: "bold",
+                type: "italic"
+            },
+            heading6_text: {
+                font_size: "11px",
+                weight: "normal",
+                type: "italic"
+            },
+            note1: {
+                font_size: "10px",
+                weight: "normal",
+                type: "italic"
+            },
+            note2: {
+                font_size: "10px",
+                weight: "normal",
+                type: "italic"
+            },
+            note3: {
+                font_size: "10px",
+                weight: "normal",
+                type: "italic"
+            },
+            link: {
+                font_size: "12px",
+                weight: "normal",
+                type: "normal"
+            },
+            page_number: {
+                font_size: "12px",
+                weight: "normal",
+                type: "normal"
+            },
         },
         colors: {
             page_background: "#FFFFFF",
             header_text1: "#666666",
             header_text2: "#666666",
-            meta-header: "#000000",
-            text-default: "#000000",
+            meta_header: "#000000",
+            text_default: "#000000",
             title: "#073763",
             subtitle: "#0b5394",
             heading1: "#073763",
@@ -117,9 +216,6 @@ Bajo instancias generales, se debe precisar de dos configuraciones:
                 bottom: "2.54cm",
                 left: "2.54cm",
                 right: "2.54cm"
-            },
-            padding: {
-
             }
         },
         author: {
@@ -130,8 +226,11 @@ Bajo instancias generales, se debe precisar de dos configuraciones:
     }
 ```
     
-#### Estilo nocturno
+#### [ES] Estilo nocturno
+#### [EN] Night style
 
 ```javascript
-    Pendiente
+    {
+        status: "pending"
+    }
 ```
