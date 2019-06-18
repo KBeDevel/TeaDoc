@@ -1,4 +1,8 @@
 # TeaDoc&copy; Style (v0.4pre)
+<p>Project progress:</p>
+
+![](http://progressed.io/bar/11)
+
 A **TeaTeam** contribution
 
 *Creator: KBeDeveloper*
