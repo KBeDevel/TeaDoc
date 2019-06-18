@@ -1,0 +1,268 @@
+nav{
+    background-color: #665088;
+    height: 80px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.nav-icon{
+    height: 50px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 992px){
+    .navbar-brand{
+        font-size: 2em;
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.nav-link:hover{
+    color: lightgray;
+    transition: .2s ease-in-out;
+}
+
+.banner{
+    background-color: #563d7c;
+}
+
+.nav-link{
+    text-align: right;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse, .navbar-nav, .ml-auto{
+        background-color: #665088;
+    }
+
+    .banner-img{
+        height: 0;
+    }
+
+    .banner-title{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .banner-subtitle{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .banner-content{
+        color: #fff;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+
+    .banner-downloads{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25%;
+    }
+
+    .version{
+        display: block;
+        color: #b8b8b8;
+        padding-left: 18%;
+    }
+
+    .version::before{
+        content: "\A";
+        white-space: pre;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-body{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner-img{
+        height: 500px;
+        padding-left: 50px;
+    }
+
+    .banner-header{
+        padding-top: 55px;
+    }
+
+    .banner-title{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        text-align: left;
+        color: #fff;
+        font-size: 80px;
+    }
+
+    .banner-subtitle{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        text-align: left;
+        color: #fff;
+        font-size: 35px;
+    }
+
+    .banner-content{
+        color: #fff;
+        padding-top: 25px;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+    .banner-downloads{
+        padding-top: 25px;
+    }
+
+    .untouch{
+        padding-right: 50px;    
+        padding-top: 5px;
+    }
+
+    .version{
+        padding-left: 20px;
+        color: #b8b8b8;
+    }
+}
+
+.support{
+    padding-top: 50px;
+}
+
+.card{
+    margin: 15px;
+}
+
+.card-img{
+    height: 100%;
+    width: 0 auto;
+}
+
+.sp{
+    padding-top: 50px;
+}
+
+.dp{
+    padding-bottom: 50px;
+}
+
+hr{
+    border-width: 4px;
+}
+
+.g-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 35px;
+}
+
+.g-body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.g-title-night{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 35px;
+}
+
+.g-body-night{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.gif{
+    max-width: 100%;
+}
+
+.night{
+    background-color: #212121;
+    color: #fff;
+}
+
+.footer{
+    color: lightgray;
+    background-color: #1b1b1b;
+    font-size: 1.25em;
+}
+
+.footer > span{
+    /* color: #212121; */
+    color: #b8b8b8;
+}
+
+.footer-body{
+    padding-top: 18px;
+    /* padding-bottom: 50px; */
+}
+
+.footer-link{
+    /* color: #212121; */
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-link:hover{
+    color: #563d7c;
+    transition: .2s ease-in-out;
+    font-weight: bold;
+}
+
+#toTop{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    height: 50px;
+    width: 50px;
+    bottom: 12%; /* Place the button at the bottom of the page */
+    right: 6%; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    text-align: center;
+    outline: none; /* Remove outline */
+    background-color: rgba(40,40,40,0.9); /* Set a background color */
+    color: #f8f9fa; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+    padding-top: 12.5px;
+}
+
+#toTop:hover{
+    background: #b8b8b8;
+    color: #212121;
+    transition: .2s ease-in-out;
+}
+
+.gh-icon{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 2px;
+}
+
+.gh-icon:hover{
+    color: lightgray;
+    transition: .2s ease-in-out;     
+}
