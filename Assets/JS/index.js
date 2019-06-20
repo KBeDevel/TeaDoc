@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
         offset: 100
     })
 })
-$( "#presModal" ).on('shown.bs.modal', function(){
+$("#presModal").on('shown.bs.modal', function(){
     $('#focus').trigger('focus')
 })
 $(document).keydown(function(e) {
@@ -31,5 +31,46 @@ $(document).keydown(function(e) {
     if (e.keyCode === 39) {
         $(".carousel-control.right").click()
         return false
+    }
+})
+$("#submitDoneModal").on('shown.bs.modal', function(){
+    $('#gt-button').prop('disabled',true)
+    $('#inputEmail').prop('disabled',true)
+    $('#inputEmail').val('Email received')
+    $('#gt-button').text('Submitted')
+    var start = 100
+    var mid = 145
+    var end = 250
+    var width = 25
+    var leftX = start
+    var leftY = start
+    var rightX = mid - (width / 2.7)
+    var rightY = mid + (width / 2.7)
+    var animationSpeed = 10
+
+    var ctx = document.getElementsByTagName('canvas')[0].getContext('2d')
+    ctx.lineWidth = width
+    ctx.strokeStyle = 'rgba(53, 186, 53, 1)'
+
+    for (i = start; i < mid; i++) {
+    var drawLeft = window.setTimeout(function() {
+        ctx.beginPath()
+        ctx.moveTo(start, start)
+        ctx.lineTo(leftX, leftY)
+        ctx.stroke()
+        leftX++
+        leftY++
+    }, 1 + (i * animationSpeed) / 3)
+    }
+
+    for (i = mid; i < end; i++) {
+    var drawRight = window.setTimeout(function() {
+        ctx.beginPath()
+        ctx.moveTo(leftX, leftY)
+        ctx.lineTo(rightX, rightY)
+        ctx.stroke()
+        rightX++
+        rightY--
+    }, 1 + (i * animationSpeed) / 3)
     }
 })

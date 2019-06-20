@@ -51,6 +51,13 @@ a{
     text-align: right;
 }
 
+.black-text{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 @media (max-width: 992px) {
     .navbar-collapse, .navbar-nav, .ml-auto{
         background-color: #665088;
@@ -63,7 +70,7 @@ a{
     .banner-title{
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
-        color: #fff;
+        color: white;
         font-size: 40px;
         text-align: center;
     }
@@ -72,12 +79,12 @@ a{
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         text-align: center;
-        color: #fff;
+        color: white;
         font-size: 16px;
     }
 
     .banner-content{
-        color: #fff;
+        color: white;
         padding-top: 25px;
         font-size: 14px;
     }
@@ -128,19 +135,19 @@ a{
     .banner-title{
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
-        color: #fff;
+        color: white;
         font-size: 70px;
     }
 
     .banner-subtitle{
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        color: #fff;
+        color: white;
         font-size: 35px;
     }
 
     .banner-content{
-        color: #fff;
+        color: white;
         padding-top: 25px;
         margin-right: 80px;
         font-size: 16px;
@@ -202,7 +209,7 @@ hr{
 .g-title-night{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: #fff;
+    color: white;
     font-size: 35px;
 }
 
@@ -210,7 +217,7 @@ hr{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #fff;
+    color: white;
 }
 
 .gif{
@@ -219,7 +226,7 @@ hr{
 
 .night{
     background-color: #212121;
-    color: #fff;
+    color: white;
 }
 
 .footer{
@@ -240,7 +247,7 @@ hr{
 
 .footer-link{
     /* color: #212121; */
-    color: #fff;
+    color: white;
     font-weight: bold;
 }
 
@@ -248,6 +255,14 @@ hr{
     color: #563d7c;
     transition: .2s ease-in-out;
     font-weight: bold;
+}
+
+.pt-sm{
+    padding-top: 18px;
+}
+
+.pb-sm{
+    padding-bottom: 18px;
 }
 
 #toTop{
@@ -277,7 +292,7 @@ hr{
 }
 
 .gh-icon{
-    color: #fff;
+    color: white;
     font-size: 1.5em;
     margin: 2px;
 }
