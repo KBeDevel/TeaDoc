@@ -6,7 +6,7 @@
 ## Corporation/organization name:         
 <pre><code>TeaTeam</code></pre>
 
-## Main area of business / market:      
+## Main area of business / market:
 <pre><code>Documentation & publishing for educational & commercial purposes</code></pre>
 
 ## Reason needing funding:   
